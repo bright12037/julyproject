@@ -58,29 +58,29 @@ const RightBoard = () => {
       <div className='h-screen'>
 
         <div className='grid grid-cols-3 jsutify-center gap-10 mb-10 mx-20 my-4 ' >
-          <div className='flex flex-col gap-4 items-center py-5 px-1 h-44 justify-center cursor-pointer transition-transform duration-300 hover:scale-105 shadow-lg bg-[#925FE2]' >
+          <div className='flex flex-col gap-4 items-center py-5 px-1 h-44 rounded-lg shadow-lg justify-center cursor-pointer transition-transform duration-300 hover:scale-105 shadow-lg bg-[#925FE2]' >
             <p className='text-4xl' ><FaUserAlt /></p>
             <p className='text-xl' >Profile</p>
           </div>
 
-          <div className='flex flex-col gap-4 items-center py-5 px-1 h-44 justify-center cursor-pointer transition-transform duration-300 hover:scale-105 shadow-lg bg-[#925FE2]' >
+          <div className='flex flex-col gap-4 items-center py-5 px-1 h-44 rounded-lg shadow-lg justify-center cursor-pointer transition-transform duration-300 hover:scale-105 shadow-lg bg-[#925FE2]' >
             <p className='text-4xl' ><FaBookOpen /></p>
             <p className='text-xl' >Courses</p>
           </div>
 
-          <div className='flex flex-col gap-4 items-center py-5 px-1 h-44 justify-center cursor-pointer transition-transform duration-300 hover:scale-105 shadow-lg bg-[#925FE2]' >
+          <div className='flex flex-col gap-4 items-center py-5 px-1 h-44 rounded-lg shadow-lg justify-center cursor-pointer transition-transform duration-300 hover:scale-105 shadow-lg bg-[#925FE2]' >
             <p className='text-4xl' ><FaTasks /></p>
             <p className='text-xl' >Assignments</p>
           </div>
         </div>
 
         <div className='grid grid-cols-3 jsutify-center gap-10 mx-20 my-4'>
-          <div className='flex flex-col gap-4 items-center py-5 px-1 h-44 justify-center cursor-pointer transition-transform duration-300 hover:scale-105 shadow-lg bg-[#925FE2]' >
+          <div className='flex flex-col gap-4 items-center py-5 px-1 h-44 rounded-lg shadow-lg justify-center cursor-pointer transition-transform duration-300 hover:scale-105 shadow-lg bg-[#925FE2]' >
             <p className='text-4xl' ><BsBoxArrowDown /></p>
             <p className='text-xl' >Results</p>
           </div>
 
-          <div className='flex flex-col gap-4 items-center py-5 px-1 h-44 justify-center cursor-pointer transition-transform duration-300 hover:scale-105 shadow-lg bg-[#925FE2]' >
+          <div className='flex flex-col gap-4 items-center py-5 px-1 h-44 rounded-lg shadow-lg justify-center cursor-pointer transition-transform duration-300 hover:scale-105 shadow-lg bg-[#925FE2]' >
             <p className='text-4xl' ><RiLogoutCircleRLine /></p>
             <p className='text-xl' >Log-out</p>
           </div>

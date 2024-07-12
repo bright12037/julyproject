@@ -1,11 +1,13 @@
 import React from 'react'
+import Home from '@/components/Studentdashboard/right/home'
 
-const home = () => {
+const homepage = () => {
   return (
     <div>
-      homepage g
+      <Home/>
     </div>
+
   )
 }
 
-export default home
+export default homepage
