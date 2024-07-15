@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.css'
+import Link from 'next/link'
 
 const Home = () => {
   return (
@@ -9,7 +10,10 @@ const Home = () => {
           <h2 className='text-2xl font-semibold pb-2'>Where learning is an adventure.</h2>
           <p className='text-lg font-md pb-2'>Learn,study and work.</p>
           <div>
+            <Link href='/login'>
             <button className='transition-transform duration-300 hover:scale-105 text-white text-xl rounded-2xl bg-[#925FE2] py-2 px-4 flex'>Login here</button>
+            
+            </Link>
           </div>
         </div>
     </div>
