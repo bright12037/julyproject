@@ -108,7 +108,7 @@ const page = () => {
 
               <div>
                 <button className='login_tablet'>Login</button>
-                <button className='google_tablet'>Sign up with google <Image src={google} width={20} alt='' /></button>
+                <button className='google_tablet'>Sign up with google <Image src={google} /></button>
               </div>
             </form>
 
@@ -121,7 +121,7 @@ const page = () => {
           {/* right */}
           <div className="right_tablet">
             <h1>Welcome to</h1>
-            <p className='student_tablet'>Student Portal</p>
+            <p className='student_tablet'>Studet Portal</p>
             <p>Login to access your account</p>
           </div>
         </div>
