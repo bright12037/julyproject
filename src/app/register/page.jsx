@@ -17,8 +17,8 @@ const page = () => {
             <p>Enter your account details</p>
 
             <form>
-            <input className='fname' type="text" placeholder='first name' required />
-            <input className='lname' type="text" placeholder='last name' required />
+            <input className='fname' type="text" placeholder='First name' required />
+            <input className='lname' type="text" placeholder='Last name' required />
             <input className='phone' type="number" placeholder='Phone No.' required />
             <input className='email' type="email" placeholder='Email' required />
 
