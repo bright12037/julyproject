@@ -1,0 +1,243 @@
+.ctn
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12, 12, 12);
+    margin-top: 5px;
+    position: fixed;
+    width: 100%;
+
+}
+
+.left
+{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding: 90px 40px 30px 30px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px 0 0 5px;
+
+}
+
+.left form input
+{
+    background-color: transparent;
+    width: 400px;
+
+}
+
+.left h1
+{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+
+}
+
+.left p
+{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+
+}
+
+.left form
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.left form .fname
+{
+    color: gray;
+    border-bottom: 1px solid gray;
+    padding-top: 5px;
+    margin-top: 20px;
+    padding-left: 3px;
+    padding-bottom: 5px;
+
+}
+
+.left form .lname
+{
+    color: gray;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-top: 5px;
+    margin-top: 10px;
+    
+}
+
+.left form .phone
+{
+    color: gray;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-top: 5px;
+    margin-top: 10px;
+    
+}
+
+.left form .email
+{
+    color: gray;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-top: 5px;
+    margin-top: 10px;
+    
+}
+
+.left .forgot_password
+{
+    font-size: 16px;
+    margin-top: 20px;
+    color: gray;
+    cursor: pointer;
+
+}
+
+.left .login
+{
+    background-color: #925FE2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.7s;
+
+}
+
+.left .login:hover
+{
+    background-color: white;
+    color: #925FE2;
+    border: 2px solid #925FE2;
+    transition: all 0.7s;
+
+}
+
+.left .login:active
+{
+    background-color: #925FE2;
+    color: white;
+    border: 2px solid transparent;
+    transition: all 0.7s;
+
+}
+
+.left .google
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 5px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+
+.left .bottom
+{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.left .bottom p
+{
+    color: gray;
+    cursor: pointer;
+
+}
+
+.left .bottom button
+{
+    margin-left: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(26, 26, 26);
+    padding: 5px 10px;
+    transition: 0.5s;
+
+}
+
+.left .bottom button:hover
+{
+    transform: scale(1.05);
+    transition: all 0.5s;
+
+}
+
+.left .bottom button:active
+{
+    transform: scale(0.98);
+
+}
+
+/* right */
+
+.right
+{
+    background-color: #925FE2;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 0 5px 5px 0;
+    padding: 40px 40px 30px 30px;
+
+}
+
+.right h1
+{
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    width: 400px;
+
+}
+
+.right .student
+{
+    font-weight: lighter;
+    margin-top: -30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 45px;
+
+}
+
+.right p
+{
+    font-size: 17px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 349px;
+
+}

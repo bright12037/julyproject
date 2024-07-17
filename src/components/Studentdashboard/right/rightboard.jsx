@@ -13,10 +13,10 @@ import profilepic from '../images/profilepic.png'
 
 const RightBoard = () => {
   return (
-    <div className='bg-black text-white' >
+    <div className='bg-black text-white h-screen' >
 
       {/* ============top bar============= */}
-      <div className='flex my-2 py-2 px-5 bg-[#925FE2] shadow-lg '>
+      <div className='flex py-2 py-2 px-5 bg-[#925FE2] shadow-lg '>
         <div className='font-bold'>
           <p>Student:</p>
           <p>John Snow</p>
@@ -55,7 +55,7 @@ const RightBoard = () => {
       </div>
 
       {/* ============the boxes======================= */}
-      <div className='h-screen'>
+      <div className=''>
 
         <div className='grid grid-cols-3 jsutify-center gap-10 mb-10 mx-20 my-4 ' >
           <div className='flex flex-col gap-4 items-center py-5 px-1 h-44 rounded-lg shadow-lg justify-center cursor-pointer transition-transform duration-300 hover:scale-105 shadow-lg bg-[#925FE2]' >
