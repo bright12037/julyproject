@@ -4,8 +4,11 @@ import './page.css'
 import { useState } from 'react'
 import Image from 'next/image'
 import google from './Image/Google-logo.png'
+import Link from 'next/link'
+
 
 const page = () => {
+  
   return (
     <div>
 
@@ -23,6 +26,7 @@ const page = () => {
             <form>
               <input className='username' type="text" placeholder='Username' required />
               <input className='password' type="password" placeholder='Password' required />
+              
 
               <span>
               <p className='forgot_password'>Forgot Password?</p>
@@ -34,7 +38,11 @@ const page = () => {
 
             <div className='bottom'>
               <p>Don't have an account?</p>
+
+              <Link href="/register">
               <button>Sign up</button>
+              
+              </Link>
             </div>
 
           </div>
