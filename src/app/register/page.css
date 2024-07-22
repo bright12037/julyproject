@@ -241,3 +241,33 @@
     padding-bottom: 349px;
 
 }
+
+.animate-1{
+    animation: bounce 4s infinite ease-out;
+    /* background: red !important; */
+}
+.animate-2{
+    animation: bounce 4s infinite ease-in 1s ;
+    /* background: red !important; */
+}
+.animate-3{
+    animation: bounce 4s infinite ease 2s;
+    /* background: red !important; */
+}
+@keyframes bounce{
+    20%{
+        transform: translateY(-10px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateY(5px);
+    }
+    80%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(-6px);
+    }
+}
