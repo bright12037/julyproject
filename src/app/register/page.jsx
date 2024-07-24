@@ -46,7 +46,7 @@ const page = () => {
         console.log(res)
         // if registeration is sucessfull, move to the login page
         if (res.status == 201) {
-
+          // after registeration is done successfully, move to the login page 
           router.push('/login')
         }
 
