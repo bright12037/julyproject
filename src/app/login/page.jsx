@@ -6,9 +6,11 @@ import Image from 'next/image'
 import google from './Image/Google-logo.png'
 import Link from 'next/link'
 import axios from 'axios'
+import { useRouter } from 'next/navigation'
 
 
 const page = () => {
+  const router=useRouter()
   const [password, setPassword] = useState('')
   const [email, setEmail] = useState('')
 

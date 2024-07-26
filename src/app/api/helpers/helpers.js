@@ -31,6 +31,7 @@ export function sendOTPByEmail(email, otp) {
                 console.error('Error sending email:', error);
             } else {
                 console.log('Email sent:', info.response);
+                
             }
         });
     }

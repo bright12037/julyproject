@@ -6,8 +6,7 @@ const courseSchema=new mongoose.Schema({
         type:String
     },
     courseCode:{
-        required:true,
-        type:Number
+        type:String
     },
     lecturer:{
         type:String,
@@ -16,6 +15,6 @@ const courseSchema=new mongoose.Schema({
 
 })
 
-const courseModel=mongoose.models.courses || mongoose.model('course',courseSchema)
+const courseModel=mongoose.models.course || mongoose.model('course',courseSchema)
 
 export default courseModel
