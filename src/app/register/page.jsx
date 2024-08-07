@@ -67,7 +67,7 @@ const page = () => {
               </span>
 
               <button className='login'>Login</button>
-              <button className='google'>Sign up with google <Image src={google} width={20} alt /></button>
+              <button className='google'>Sign up with google <Image src={google} width={20} alt='' /></button>
             </form>
 
             <div className='bottom'>

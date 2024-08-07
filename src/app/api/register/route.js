@@ -27,11 +27,15 @@ export const POST = async (req) => {
             return new NextResponse(JSON.stringify({ msg: "Student not registered" }, { status: 400 }))
 
         }
+
         // if user is registered, send user mail
+
         const otp=generateRandomNumber()
         sendOTPByEmail(email,otp);
         return new NextResponse(JSON.stringify({msg:"user registered successfully"}, {status:201}))
+        
     }
+    
     catch (err) {
         console.log("this is the error ", err.message)
         return new NextResponse(JSON.stringify({ msg: "Server Error" }, { status: 500 }))
