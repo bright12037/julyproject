@@ -10,6 +10,7 @@ import { FaTasks } from "react-icons/fa";
 import { RiLogoutCircleRLine } from "react-icons/ri";
 
 import profilepic from '../images/profilepic.png'
+import Link from 'next/link';
 
 const RightBoard = () => {
   return (
@@ -70,7 +71,10 @@ const RightBoard = () => {
 
           <div className='flex flex-col gap-4 items-center py-5 px-1 h-44 rounded-lg shadow-lg justify-center cursor-pointer transition-transform duration-300 hover:scale-105 shadow-lg bg-[#925FE2]' >
             <p className='text-4xl' ><FaTasks /></p>
-            <p className='text-xl' >Assignments</p>
+            <Link href="/registerCourses">
+            <p className='text-xl' >register courses</p>
+            
+            </Link>
           </div>
         </div>
 

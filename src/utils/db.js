@@ -10,6 +10,7 @@ export const dbConnect=async()=>{
 
     }
     catch(err){
-        console.log("mongo db Erro " , err)
+    
+        console.log("mongo db Erro " , err.message)
     }
 }
